@@ -2,31 +2,37 @@
   {
     "id": 1,
     "name": "John Doe",
-    "avatar": "https://avatar-placeholder.iran.liara.run/",
+    "avatar": "https://avatar.iran.liara.run/public/boy",
     "review": "Pelayanan sangat bagus dan cepat. Saya sangat puas dengan layanan yang diberikan."
   },
   {
     "id": 2,
     "name": "Jane Smith",
-    "avatar": "https://avatar-placeholder.iran.liara.run/",
+    "avatar": "https://avatar.iran.liara.run/public",
     "review": "Tempat yang nyaman dan makanannya enak. Pengalaman yang luar biasa!"
   },
   {
     "id": 3,
     "name": "Michael Johnson",
-    "avatar": "https://avatar-placeholder.iran.liara.run/",
+    "avatar": "https://avatar.iran.liara.run/public/girl",
     "review": "Sangat puas dengan kualitas dan rasa makanan. Pasti akan kembali lagi!"
   },
   {
     "id": 4,
     "name": "Emily Davis",
-    "avatar": "https://avatar-placeholder.iran.liara.run/",
+    "avatar": "https://avatar.iran.liara.run/public",
     "review": "Layanan pelanggan sangat ramah dan profesional. Tempat yang sangat direkomendasikan!"
   },
   {
     "id": 5,
     "name": "David Wilson",
-    "avatar": "https://avatar-placeholder.iran.liara.run/",
+    "avatar": "https://avatar.iran.liara.run/public/boy",
     "review": "Pengalaman yang menyenangkan. Harga yang sesuai dengan kualitasnya."
+  },
+  {
+    "id": 6,
+    "name": "Haechan Lee",
+    "avatar": "https://avatar.iran.liara.run/public/boy",
+    "review": "Pelayanan sangat bagus dan cepat. Saya sangat puas dengan layanan yang diberikan."
   }
 ]

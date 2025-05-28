@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Nasi Goreng Spesial",
+    "price": 25000,
+    "image": "../img/nasi-goreng.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mie Ayam Jamur",
+    "price": 18000,
+    "image": "../img/mie-ayam.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Es Teh Manis",
+    "price": 8000,
+    "image": "../img/es-teh.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sate",
+    "price": 8000,
+    "image": "../img/sate.jpg"
+  }
+]

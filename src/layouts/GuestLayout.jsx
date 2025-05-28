@@ -8,10 +8,7 @@ export default function GuestLayout() {
                     <HeaderGuest />
 
                     <Outlet />
-                    <p className="text-center text-sm text-white mt-6">
-                        © 2025 Sedap Restaurant Admin Dashboard. All rights
-                        reserved.
-                    </p>
+                    
                 </div>
 
             </div>
