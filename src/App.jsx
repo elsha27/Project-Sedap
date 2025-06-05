@@ -33,7 +33,9 @@ const Register = React.lazy(() => import("./pages/Auth/Register"));
 const Forgot = React.lazy(() => import("./pages/Auth/Forgot"));
 const GuestLayout = React.lazy(() => import("./layouts/GuestLayout"));
 const DashboardGuest = React.lazy(() => import("./pages/DashboardGuest"));
-const CekMember = React.lazy(() => import("./pages/CekMember"))
+const CekMember = React.lazy(() => import("./pages/CekMember"));
+const Products = React.lazy(() => import("./pages/products"));
+const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 
 function App() {
   return (
@@ -49,6 +51,8 @@ function App() {
           <Route path="/users" element={<Users />} />
           <Route path="/addcustomer" element={<AddCustomer />} />
           <Route path="/addorders" element={<AddOrder />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/products/:id" element={<ProductDetail />} /> 
         </Route>
 
         <Route element={<AuthLayout />}>

@@ -1,6 +1,7 @@
-import { BiMessageAltError } from "react-icons/bi"; 
-import { BiErrorAlt } from "react-icons/bi"; 
-import { BiError } from "react-icons/bi"; 
+import { MdFastfood } from "react-icons/md"; 
+import { BiMessageAltError } from "react-icons/bi";
+import { BiErrorAlt } from "react-icons/bi";
+import { BiError } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
 import { FcCustomerSupport } from "react-icons/fc";
 import { AiOutlineShoppingCart, AiFillHome } from "react-icons/ai";
@@ -37,17 +38,27 @@ export default function ListMenu() {
       </li>
       <li>
         <NavLink to="/ErrorPage400" className={menuClass}>
-        <BiErrorAlt className="mr-4 text-xl" />Error Page 400
+          <BiErrorAlt className="mr-4 text-xl" />Error Page 400
         </NavLink>
       </li>
       <li>
         <NavLink to="/ErrorPage401" className={menuClass}>
-        <BiError className="mr-4 text-xl" />Error Page 401
+          <BiError className="mr-4 text-xl" />Error Page 401
         </NavLink>
       </li>
       <li>
         <NavLink to="/ErrorPage403" className={menuClass}>
-        <BiMessageAltError className="mr-4 text-xl" />Error Page 403
+          <BiMessageAltError className="mr-4 text-xl" />Error Page 403
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          id="menu-4"
+          to="/products"
+          className={menuClass}
+        >
+          <MdFastfood className="mr-4 text-xl" />
+          Products
         </NavLink>
       </li>
     </ul >
