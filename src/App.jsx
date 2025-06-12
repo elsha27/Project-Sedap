@@ -34,6 +34,7 @@ const Forgot = React.lazy(() => import("./pages/Auth/Forgot"));
 const GuestLayout = React.lazy(() => import("./layouts/GuestLayout"));
 const DashboardGuest = React.lazy(() => import("./pages/DashboardGuest"));
 const CekMember = React.lazy(() => import("./pages/CekMember"))
+const Notes = React.lazy(() => import("./pages/Notes"))
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route path="/users" element={<Users />} />
           <Route path="/addcustomer" element={<AddCustomer />} />
           <Route path="/addorders" element={<AddOrder />} />
+          <Route path="/notes" element={<Notes />} />
         </Route>
 
         <Route element={<AuthLayout />}>

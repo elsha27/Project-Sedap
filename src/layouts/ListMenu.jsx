@@ -1,3 +1,4 @@
+import { CgNotes } from "react-icons/cg"; 
 import { BiMessageAltError } from "react-icons/bi"; 
 import { BiErrorAlt } from "react-icons/bi"; 
 import { BiError } from "react-icons/bi"; 
@@ -48,6 +49,11 @@ export default function ListMenu() {
       <li>
         <NavLink to="/ErrorPage403" className={menuClass}>
         <BiMessageAltError className="mr-4 text-xl" />Error Page 403
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/notes" className={menuClass}>
+        <CgNotes className="mr-4 text-xl" />Notes
         </NavLink>
       </li>
     </ul >
