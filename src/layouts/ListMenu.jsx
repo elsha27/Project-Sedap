@@ -1,9 +1,5 @@
 import { CgNotes } from "react-icons/cg";    
-import { BiMessageAltError } from "react-icons/bi";
-import { BiErrorAlt } from "react-icons/bi";
-import { BiError } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
-import { FcCustomerSupport } from "react-icons/fc";
 import { AiOutlineShoppingCart, AiFillHome } from "react-icons/ai";
 import { Link, NavLink } from "react-router-dom"
 import { BiError, BiMessageAltError, BiErrorAlt } from "react-icons/bi";
